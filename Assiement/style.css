@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.title-p{
+    text-decoration: underline;
+}
+
+#cour,#univ{
+    position: relative;
+    bottom: 18px;
+    left: 300px;
+}
+
+#Job, #pn{
+    position: relative;
+    bottom: 18px;
+    left: 300px;
+    
+}
+
+label.title-l{
+    background-color: aqua;
+    
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+h4 ,p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h2{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul.Per-list{
+    position: relative;
+    left: 16%;
+}
+
+div.Edu-list{
+    position: relative;
+    left: 16%;
+
+}
+
+div.Education-div{
+    margin-top: 3%;
+}
+
+div.Projects-div a:hover{
+    color: green;
+}
+
+div.Projects-div{
+    text-align: center;
+
+}
+
+div.Contact-div img {
+    margin-left: 18%;
+}
+
+
+
+@media screen and (max-width: 630px) {
+    ul.Per-list, div.Edu-list{
+        left: 18px;
+    }
+}
